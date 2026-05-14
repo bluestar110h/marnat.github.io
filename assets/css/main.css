@@ -1319,11 +1319,11 @@ html {
 body {
   direction: rtl;
   text-align: right;
-  font-family: var(--font-vazirmatn-regular) !important;
+  font-family: vazir !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: var(--font-yekanbakh-bold) !important;
+  font-family: vazir-bold !important;
 }
 
 .navmenu ul {
