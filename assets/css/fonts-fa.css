@@ -1,0 +1,50 @@
+/* assets/css/fonts-fa.css */
+
+/* Yekanbakh Font */
+@font-face {
+  font-family: 'Yekanbakh';
+  src: url('../fonts/YekanBakh-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yekanbakh';
+  src: url('../fonts/YekanBakh-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Peyda Font */
+@font-face {
+  font-family: 'Peyda';
+  src: url('../fonts/Peyda-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../fonts/Peyda-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* اعمال فونت به کل صفحه فارسی */
+html[lang="fa"], 
+body[dir="rtl"] {
+  font-family: 'Peyda', 'Yekanbakh', 'Roboto', sans-serif;
+}
+
+/* برای تیترها می‌توانید از Yekanbakh استفاده کنید */
+body[dir="rtl"] h1,
+body[dir="rtl"] h2,
+body[dir="rtl"] h3,
+body[dir="rtl"] h4,
+body[dir="rtl"] .sitename {
+  font-family: 'Yekanbakh', 'Peyda', 'Poppins', sans-serif;
+}
