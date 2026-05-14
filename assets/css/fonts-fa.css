@@ -37,7 +37,7 @@
 /* اعمال فونت به کل صفحه فارسی */
 html[lang="fa"], 
 body[dir="rtl"] {
-  font-family: 'Peyda', 'Yekanbakh', 'Roboto', sans-serif;
+  font-family: 'Yekanbakh', 'Peyda', 'Roboto', sans-serif;
 }
 
 /* برای تیترها می‌توانید از Yekanbakh استفاده کنید */
@@ -46,5 +46,5 @@ body[dir="rtl"] h2,
 body[dir="rtl"] h3,
 body[dir="rtl"] h4,
 body[dir="rtl"] .sitename {
-  font-family: 'Yekanbakh', 'Peyda', 'Poppins', sans-serif;
+  font-family: 'Peyda', 'Yekanbakh', 'Poppins', sans-serif;
 }
