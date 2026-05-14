@@ -1358,3 +1358,17 @@ h1,h2,h3,h4,h5,h6 {
 .form-control {
   text-align: right;
 }
+body,
+p,
+span,
+li,
+a,
+input,
+textarea,
+button {
+    font-family: 'YekanBakh' !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'PeydaWeb' !important;
+}
