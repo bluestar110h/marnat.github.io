@@ -1310,3 +1310,54 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* ===== Persian RTL Support ===== */
+
+html {
+  direction: rtl;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-vazirmatn-regular) !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-yekanbakh-bold) !important;
+}
+
+.navmenu ul {
+  direction: rtl;
+}
+
+.navmenu li {
+  text-align: right;
+}
+
+.resume-item,
+.service-item,
+.info-item,
+.portfolio-info,
+.about .content,
+.section-title {
+  text-align: right;
+}
+
+.hero .container {
+  text-align: center;
+}
+
+.progress .skill {
+  direction: ltr;
+}
+
+.bi-chevron-right:before {
+  transform: rotate(180deg);
+  display: inline-block;
+}
+.form-control {
+  text-align: right;
+}
+.header .container-fluid {
+  flex-direction: row-reverse;
+}
